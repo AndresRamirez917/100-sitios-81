@@ -103,6 +103,49 @@ form .button-2 {
   grid-auto-rows: minmax(400px, auto);
 }
 
+#mainheader .navbar .logo {
+  width: 130px;
+  margin: 2rem 0;
+}
+#mainheader .navbar ul {
+  display: flex;
+  margin-top: 3rem;
+}
+#mainheader .navbar li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#gallery .gridbox-1 {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+#gallery .gridbox-2 {
+  grid-column: 2/4;
+  grid-row: 1;
+}
+#gallery .gridbox-3 {
+  grid-column: 1/2;
+  grid-row: 2;
+}
+#gallery .gridbox-4 {
+  grid-column: 2/4;
+  grid-row: 2;
+}
+#gallery .gridbox-1,
+#gallery .gridbox-2,
+#gallery .gridbox-3,
+#gallery .gridbox-4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #footer {
   text-align: center;
   padding: 3rem 0;
