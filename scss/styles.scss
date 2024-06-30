@@ -38,7 +38,7 @@ ul {
 
 .subtitle {
     text-align: left;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 300;
     color:#000;
 }
@@ -48,6 +48,7 @@ ul {
     padding: 10px 20px;
     text-align: center;
     text-transform: uppercase;
+    border: none;
     cursor: pointer;
 }
 
@@ -79,6 +80,9 @@ form {
     .button-2 {
         width: 100%;
         margin-bottom: 2rem;
+    }
+    .button-2:hover {
+        background: orangered;
     }
 }
 
@@ -157,7 +161,6 @@ margin: 0 auto;
     background: orangered;
     margin-bottom: 2rem;
     h2 {
-        font-size: 3rem;
         font-weight: 300;
         margin-top: 3rem;
     }
