@@ -121,6 +121,45 @@ form .button-2 {
   width: 100%;
 }
 
+#banner1 {
+  width: 92%;
+  margin: 0 auto;
+  background: orangered;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+#banner1 .banner-text {
+  padding: 50px;
+  display: block;
+  text-align: left;
+}
+#banner1 .banner-text h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+#banner1 .banner-text p {
+  line-height: 35px;
+}
+#banner1 .banner-text .button-1 {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#banner {
+  width: 95%;
+  margin: 0 auto;
+  padding: 70px 0px 0px 0;
+  text-align: left;
+  background: orangered;
+  margin-bottom: 2rem;
+}
+#banner h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 3rem;
+}
+
 #gallery .gridbox-1 {
   grid-column: 1/2;
   grid-row: 1;
@@ -146,7 +185,40 @@ form .button-2 {
   background-size: cover;
 }
 
+#portfolio img {
+  width: 40%;
+}
+#portfolio .portfolio-box-1 {
+  gap: 50px;
+  margin-bottom: 2rem;
+}
+#portfolio .portfolio-box-1 p {
+  line-height: 30px;
+}
+
+#about {
+  width: 50%;
+  margin-left: 1rem;
+  line-height: 30px;
+}
+#about p {
+  margin: 4rem 0;
+}
+
+#contact {
+  width: 70%;
+  margin: 0 auto;
+}
+#contact form {
+  margin: 3rem 0;
+}
+#contact form .flexbox-1 {
+  flex: 1;
+}
+
 #footer {
+  width: 95%;
+  margin: 0 auto;
   text-align: center;
   padding: 3rem 0;
   background: orangered;
