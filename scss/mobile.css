@@ -54,4 +54,16 @@
   width: 100%;
   margin: 0 auto;
   text-align: justify;
+}
+
+#project {
+  margin: 0 auto;
+  text-align: justify;
+}
+#project img {
+  width: 100%;
+  margin: 1rem 0;
+}
+#project p {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=mobile.css.map */
